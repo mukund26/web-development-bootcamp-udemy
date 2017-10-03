@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs in HTML</title>
+</head>
+<body>
+
+	<form>
+		<h1>Do you prefer cats or dogs?</h1>
+			<label for="cats">Cats</label>
+			<input name="pet-choice" id="cats" type="radio" value="cats">
+
+			<label for="dogs">Dogs</label>
+			<input name="pet-choice" id="dogs" type="radio" value="Dogs">
+
+		<h1>What's your favorite colour?</h1>
+
+			<select name="colour">
+				<option value="Red">Red</option>
+				<option value="Green">Green</option>
+				<option value="Blue">Blue</option>
+			</select>
+
+		<h1>What is your favorite quotation?</h1>
+
+			<textarea name="quotation" rows="10" cols="50"></textarea>
+			<input type="submit">
+	</form>
+
+	<form>
+		<h1>Sign Up!</h1>
+		<div>
+			<label for="first-name">First Name:</label>
+			<input type="text" placeholder="Jack" id="first-name" name="firstname" required>
+
+			<label for="last-name">Last Name:</label>
+			<input type="text" placeholder="Sewell" id="last-name" name="lastname" required>
+		</div>
+		<div>
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id=male value="male" required>
+
+			<label for="female">Female</label>
+			<input type="radio" name="gender" id="female" value="male" required>
+		</div>
+		<div>
+			<label for="email">Email:</label>
+			<input type="email" placeholder="hello@jacksewell.me" id="email" name="email" required>
+
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" 
+			pattern=".{8,100}" title="Password must be between 8 and 100 characters" required>
+		</div>
+		<div>
+			<label for="birthday">Birthday:</label>
+			<select id="birthday" name="year">
+				<option selected disabled>Year</option>
+				<option>2000</option>
+				<option>2001</option>
+			</select>
+			<select id="birthday" name="month">
+				<option selected disabled>Month</option>
+				<option>January</option>
+				<option>Febuary</option>
+			</select>
+			<select id="birthday" name="day">
+				<option selected disabled>Day</option>
+				<option>1</option>
+				<option>2</option>
+			</select>
+		</div>
+		<div>
+			<label for="terms-cond">I agree to the terms and conditions</label>
+			<input type="checkbox" id="terms-cond" name="terms-cond" required>
+		</div>
+		<input type="submit">
+	</form>
+
+</body>
+</html>
