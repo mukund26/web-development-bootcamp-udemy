@@ -1,0 +1,15 @@
+h1{
+	color: red;
+	border: 1px red solid;
+}
+h4{
+	color: purple;
+}
+li{
+	color: green;
+}
+body{
+	background: url(https://lostandtaken.com/wp-content/uploads/edd/2016/02/clean-white-paper-texture-1-780x520.jpg);
+	background-repeat: no-repeat;	
+	background-size: cover;
+}
