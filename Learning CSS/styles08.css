@@ -2,18 +2,18 @@ body{
 	font-size: 10px;
 }
 h1{
-	font-family: Georgia;
+	font-family: 'Oswald', sans-serif;
 	font-size: 5em;
-	font-weight: bold;
+	font-weight: 700;
 	text-align: center;
 	text-decoration: underline;
 }
 p{
-	font-family: Arial;
-	font-size: 2em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.75em;
 	line-height: 1.5;
 	text-align: center;
 }
 span{
-	font-size: 2em;
+	font-size: 1.5em;
 }
