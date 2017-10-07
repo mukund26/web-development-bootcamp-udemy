@@ -1,0 +1,10 @@
+ul li{
+	border: 4px #345678 solid;
+}
+.complete{
+	text-decoration: line-through;
+}
+#special{
+	background-color: #454545;
+	color: #FFFFFF;
+}
